@@ -38,11 +38,25 @@ body {
     list-style: none;
 }
 
+.location {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 /**
   |============================
   | HEADER
   |============================
 */
+
+header-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
 .header-logo{
     font-family:var(--secondary-font);
     font-weight: 800;
@@ -137,6 +151,9 @@ color:var(--main-text-color);
   | FEATURE SECTION
   |============================
 */
+
+
+
 .features-title{
     font-weight:500;
     font-size:20px;
@@ -223,6 +240,12 @@ body{
 
 }
 
+.card-set{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .gallery-title{
     font-weight: 500;
     font-size: 20px;
@@ -236,10 +259,15 @@ body{
     color: var(--secondary-text-color);
 }
 
-.button-list{
+.list{
     list-style: none;
 }
 
+btn-set
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
 .button-nav{
     font-family:var(--primary-font);
     font-weight: 500;
