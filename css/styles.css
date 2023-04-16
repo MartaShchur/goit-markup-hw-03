@@ -25,7 +25,10 @@ body {
     color:#434455;
     background-color:var(--main-bg-color);
     letter-spacing: 0.02em;
+}
 
+img{
+    display: block;
 }
 
 /* reset start */
@@ -46,6 +49,8 @@ body {
 
 .container{
     width: 1158px;
+    padding: 0 15px 0 15px;
+  
 }
 
 /**
@@ -53,15 +58,19 @@ body {
   | HEADER
   |============================
 */
+.header-page{
+    border-bottom: 1px solid #e7e9fc;
 
-.header-page,
+}
 .header-nav{
-    /* Auto layout */
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
-    
+}
+
+.header-page-container{
+    display: flex;
+    align-items: center;
 }
 
 .header-logo{
@@ -72,6 +81,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--logo-color);
+    margin-right: 76px;
 }
 
 .studio-logo{
@@ -99,6 +109,7 @@ body {
 
 .menu-item, .link{
     text-decoration: none;
+    padding: 24px 0 24px;
 }
 
 .menu-item:focus,
@@ -122,6 +133,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color:var(--secondary-text-color);
+    padding: 24px 0 24px;
 }
 
 .contact-item:hover,
@@ -136,6 +148,7 @@ body {
 */
 .hero-page{
     background-color:var(--dark-bg-color);
+    padding: 188px 0 188px;
 }
 
 .hero-title{
@@ -143,6 +156,7 @@ body {
     line-height: 1.07;
     text-align:center;
     color:var(--light-text-color);
+    max-width: 496px;
 }
 
 .modal-btn{
@@ -155,11 +169,11 @@ body {
     color: #ffffff;
     cursor:pointer;
     /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    align-items:center;
-    padding: 16px 32px;
-    gap: 10px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px; 
 }
 
 .modal-btn:hover,
@@ -221,6 +235,8 @@ body {
 /* FOOTER */
 .footer{
     background-color:var(--dark-bg-color);
+    padding: 100px 0;
+
 }
 
 .link{
@@ -235,6 +251,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-color);
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-word{
