@@ -16,12 +16,14 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./modern-normalize.css" />
     <title>Portfolio</title>
   </head>
   <body>
     <!--  header-->
     <header class="header-page">
-      <nav class="header-page">
+      <div class="container header-page-container">
+      <nav class="header-nav">
         <a class="header-logo link" href="./index.html"
           >Web<span class="studio-logo">Studio</span>
         </a>
@@ -44,13 +46,15 @@
             <a class="contact-item link" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
+        </div>
       </address>
     </header>
 
     <!-- main -->
 
     <main>
-      <section class="">
+      <section class="section">
+        <div class="container">
         <h1 hidden>Services</h1>
         <ul class="btn-set list">
           <li><button type="button" class="button-nav">All</button></li>
@@ -59,11 +63,11 @@
           <li><button type="button" class="button-nav">Design</button></li>
           <li><button type="button" class="button-nav">Marketing</button></li>
         </ul>
-
+        
         <!--gallery-->
 
         <ul class="card-set list">
-          <li>
+          <li class="preview">
             <a class="link" href="">
               <img src="./images/row1/bank.jpg" alt="operation" width="360" height="300" />
               <h2 class="gallery-title">Banking App Interface Concept</h2>
@@ -135,6 +139,7 @@
             </a>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
