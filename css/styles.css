@@ -24,14 +24,25 @@ body {
     font-family: var(--primary-font);
     color:#434455;
     background-color:var(--main-bg-color);
+    letter-spacing: 0.02em;
 
 }
 
 /* reset start */
 
+.link {
+    text-decoration: none;
+}
 
+.list {
+    list-style: none;
+}
 
-/* HEADER */
+/**
+  |============================
+  | HEADER
+  |============================
+*/
 .header-logo{
     font-family:var(--secondary-font);
     font-weight: 800;
@@ -46,21 +57,16 @@ body {
     color:var(--main-text-color);
 }
 
-.link{
-text-decoration: none;
-}
+/**
+  |============================
+  | MENU
+  |============================
+*/
 
-.menu 
-.list{
-    list-style: none;
-}
-
-/* MENU */
-.menu-item{
+.menu-link{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;
 color:var(--main-text-color);
 }
 
@@ -73,7 +79,12 @@ color:var(--main-text-color);
     color:#404BBF;
 }
 
-/* CONTACTS */
+/**
+  |============================
+  | CONTACTS
+  |============================
+*/
+
 .contacts-nav{
     font-style: normal;
 }
@@ -81,7 +92,6 @@ color:var(--main-text-color);
 .contact-item{
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color:var(--secondary-text-color);
 }
 
@@ -90,7 +100,11 @@ color:var(--main-text-color);
     color:#404bbf ;   
 }
 
-/* HERO SECTION */
+/**
+  |============================
+  | HERO SECTION
+  |============================
+*/
 .hero-page{
     background-color:var(--dark-bg-color);
 }
@@ -99,19 +113,18 @@ color:var(--main-text-color);
     font-size: 56px;
     line-height: 1.07;
     text-align:center;
-    letter-spacing: 0.02em;
     color:var(--light-text-color);
 }
 
 .modal-btn{
-background-color:#4D5AE5;
-font-family:var(--primary-font);
-font-weight:500;
-font-size: 16px;
-line-height:1.5;
-letter-spacing: 0.04em;
-color: #ffffff;
-cursor:pointer;
+    background-color:#4D5AE5;
+    font-family:var(--primary-font);
+    font-weight:500;
+    font-size: 16px;
+    line-height:1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor:pointer;
 }
 
 .modal-btn:hover,
@@ -119,33 +132,45 @@ cursor:pointer;
     background-color: #404BBF;
 }
 
-/* FEATURE SECTION */
+/**
+  |============================
+  | FEATURE SECTION
+  |============================
+*/
 .features-title{
     font-weight:500;
     font-size:20px;
     line-height:1.2;
-    letter-spacing:0.02em;
     color:var(--main-text-color);
 }
 
 .features-text{
+    font-weight: 400;
     font-size:16px;
     line-height:1.5;
-    letter-spacing:0.02em;
     color:var(--secondary-text-color);
 }
 
-/* DOING SECTION */
+/**
+  |============================
+  | DOING SECTION
+  |============================
+*/
 .work-title{
+    font-weight: 700;
     font-size:36px;
     line-height:1.11;
     text-align:center;
-    letter-spacing:0.02em;
     text-transform:capitalize;
     color:var(--main-text-color);
 }
 
-/* TEAM SECTION */
+/**
+  |============================
+  | TEAM SECTION
+  |============================
+*/
+
 .team-nav{
     background-color:var(--light-bg-color);
 }
@@ -186,20 +211,29 @@ cursor:pointer;
     color: var(--footer-text-color);
 }
 
-/* PORTFOLIO  */
+/**
+  |============================
+  |  PORTFOLIO
+  |============================
+*/
+
+body{
+    letter-spacing: 0.02em;
+    background-color: var(--main-bg-color);
+
+}
+
 .gallery-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
 
 .gallery-text{
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--paragraph-text-color);
+    color: var(--secondary-text-color);
 }
 
 .button-list{
