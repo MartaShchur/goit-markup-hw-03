@@ -49,7 +49,6 @@ img{
 .container{
     width: 1158px;
     padding: 0 15px 0 15px;
-  
 }
 
 .section {
@@ -149,6 +148,7 @@ img{
 .hero-page{
     background-color:var(--dark-bg-color);
     padding: 188px 0 188px;
+    text-align: center;
 }
 
 .hero-title{
@@ -157,6 +157,8 @@ img{
     text-align: center;
     color:var(--light-text-color);
     max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -174,6 +176,8 @@ img{
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
       
 }
 
@@ -308,6 +312,19 @@ body{
     background-color: var(--main-bg-color);
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .section{
     padding: 96px 0 120px;
 }
@@ -315,9 +332,18 @@ body{
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px;
-    
-    
+    row-gap: 48px;   
+}
+
+.project-card{
+    width: calc((100% - 48px) / 3);
+}
+
+.content{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .gallery-title{
