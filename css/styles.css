@@ -111,6 +111,11 @@ img{
     text-decoration: none;
 }
 
+.submenu{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .menu-item:focus,
 .menu-item:hover {   
     color:#404BBF;
@@ -123,8 +128,7 @@ img{
 */
 
 .contacts-nav{
-    font-style: normal;
-    
+    font-style: normal;   
 }
 
 .contact-item{
