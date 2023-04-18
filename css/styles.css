@@ -52,8 +52,9 @@ img{
     margin: 0 auto;
 }
 
-.section {
-    padding: 120px 0;
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 /**
@@ -104,7 +105,6 @@ img{
     /* Auto layout */
     display: flex;
     gap: 40px;
-
 }
 
 .menu-item, .link{
@@ -126,7 +126,6 @@ img{
 .contacts-nav{
     font-style: normal;
     
-
 }
 
 .contact-item{
@@ -229,7 +228,7 @@ img{
 }
 
 .location-work{
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 48px)/3);
 }
 
 /**
@@ -240,17 +239,21 @@ img{
 
 .team-nav{
     background-color:var(--light-bg-color);
-    padding: 120px 0 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-card{
     background-color:#FFFFFF;
     width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .card-content{
-    padding: 32px 16px 32px 16px;
-    border-radius: 0px 0px 4px 4px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .name{
@@ -327,7 +330,8 @@ body{
 }
 
 .section-portfolio{
-    padding: 96px 0 120px;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 .card-set{
     display: flex;
