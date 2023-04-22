@@ -29,6 +29,12 @@ body {
 
 img{
     display: block;
+    max-width: 100%;
+}
+
+h1,h2,h3,
+p{
+    margin: 0;
 }
 
 /* reset start */
@@ -63,8 +69,7 @@ img{
   |============================
 */
 .header-page{
-    border-bottom: 1px solid #e7e9fc;
-
+    border-bottom: 1px solid #e7e9fc;  
 }
 .header-nav{
     display: flex;
@@ -114,6 +119,8 @@ img{
 .submenu{
     padding-top: 24px;
     padding-bottom: 24px;
+    display: block;
+    color: var(--main-text-color);
 }
 
 .menu-item:focus,
@@ -138,6 +145,7 @@ img{
 }
 
 .contact-item{
+    font-family: var(--primary-font);
     font-size: 16px;
     line-height: 1.5;
     color:var(--secondary-text-color);
@@ -168,6 +176,7 @@ img{
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 48px;
 
 }
 
@@ -187,6 +196,7 @@ img{
     border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
+    
       
 }
 
@@ -261,6 +271,7 @@ img{
     background-color:#FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+
 }
 
 .card-content{
@@ -351,7 +362,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px;   
+    row-gap: 48px;  
 }
 
 .project-card{
@@ -360,6 +371,7 @@ body{
 
 ul {
     padding-left: 0;
+    margin: 0;
 }
 
 .content{
