@@ -32,7 +32,7 @@ img{
     max-width: 100%;
 }
 
-h1,h2,h3,
+h1,h2,h3,h4,h5,h6,
 p{
     margin: 0;
 }
@@ -148,6 +148,7 @@ p{
     font-family: var(--primary-font);
     font-size: 16px;
     line-height: 1.5;
+    font-weight: 400;
     color:var(--secondary-text-color);
     padding: 24px 0 24px;
 }
@@ -213,6 +214,7 @@ p{
 
 .location-feature{
     width: calc((100% - 72px) / 4);
+    
 }
 
 
